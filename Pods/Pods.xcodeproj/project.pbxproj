@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F928D63F4A490CB12C83701C598A22E /* Pods-TwitterApplication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FEC8593FFF5BE61DB84F142B30A1BE9 /* Pods-TwitterApplication-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		17FFFD666D11C2CF021F898C8C4DC375 /* UIImage+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0542140B14A83BED16E956609A825AC /* UIImage+Helper.swift */; };
+		18106110639C1124B7F5D9ED1518D3E6 /* DatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBD4930DFD89A6F1CA6E8BE53C73C57 /* DatasourceCell.swift */; };
+		18F6C9580E19E877F7F4B921D4DA13DD /* LBTATextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97623DE19EF62218F9724786D0E17732 /* LBTATextView.swift */; };
+		624439D597C65CA7FEE2BA657B1A8089 /* LBTAComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 100F984071AA577B7D8B7609FDD15BEC /* LBTAComponents-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		660388682057382A4BB734B2CA9B2998 /* DiscardableImageCacheItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F70469FD85FC2097AF9E0F0F07B3CF6 /* DiscardableImageCacheItem.swift */; };
+		691EA64AA3EABECAD8ECDE3E357B0B64 /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC4F3A451EA596A6D63C34C63AC26AA /* Datasource.swift */; };
+		8AC66239C8DEBA56906B125DD7701658 /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C44ECB05BAE92845D547111A125AF3 /* UIColor+Helper.swift */; };
+		A92376A86C1166DC9CD4390B556069C2 /* NSMutableAttributedString+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743D2C864C6730B9F33C83D580726C71 /* NSMutableAttributedString+Helper.swift */; };
+		ADFC73AF8E0299B86208982DACFAEB46 /* LBTAComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54978A4799C8BE49323D725432B088 /* LBTAComponents-dummy.m */; };
+		AE7BEB1A244E47B1519625CA1A4AE0F4 /* UIButton+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2AA788F57A0EB69F7988E4F4C1C53 /* UIButton+Helper.swift */; };
+		B2BBA2A033DBC6E80E1D48EEA62E9456 /* DatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35D18C14C3395C8D3EFA68EF014EFF /* DatasourceController.swift */; };
+		C3A08B53DC18C4659B3B09B3A4E6AEBA /* DefaultCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C10CC548CBA4F86BDF073FC4920E9D6 /* DefaultCells.swift */; };
+		D12788D3CFA18FBF46528B731ED1C670 /* LBTALabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC88D241F5BA38189D84A36D2181BCEF /* LBTALabel.swift */; };
+		D7408DF2F6A2C73B8BBE34FDF3BE0143 /* Pods-TwitterApplication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6942C981897C82E4B4A49A3ED72DE /* Pods-TwitterApplication-dummy.m */; };
+		DB170B88E6EAEB6D6D6362C762ECF424 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31E9E9278BDCCDDDF6B58D59E33968 /* UIView+Anchors.swift */; };
+		DD9EABC2B73B2D67EA53ACDC562B6C22 /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC801A91D1274D94E46F686B3CB732 /* CachedImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3846DA94BFCB0265BD39F6EE523A504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D740B9F059AF373D79AC28A4AE2E550;
+			remoteInfo = LBTAComponents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C6DF707BDC47CDF77A1394750BF3AE /* LBTAComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBTAComponents.modulemap; sourceTree = "<group>"; };
+		100F984071AA577B7D8B7609FDD15BEC /* LBTAComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTAComponents-umbrella.h"; sourceTree = "<group>"; };
+		1F70469FD85FC2097AF9E0F0F07B3CF6 /* DiscardableImageCacheItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscardableImageCacheItem.swift; path = LBTAComponents/Classes/DiscardableImageCacheItem.swift; sourceTree = "<group>"; };
+		2D7074816FDB2C9111045792ED98D97B /* Pods-TwitterApplication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitterApplication.modulemap"; sourceTree = "<group>"; };
+		33DEC7DC7E604B01D91D02EE0FDF5B4F /* libPods-TwitterApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TwitterApplication.a"; path = "libPods-TwitterApplication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBD4930DFD89A6F1CA6E8BE53C73C57 /* DatasourceCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatasourceCell.swift; path = LBTAComponents/Classes/DatasourceCell.swift; sourceTree = "<group>"; };
+		4B54978A4799C8BE49323D725432B088 /* LBTAComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBTAComponents-dummy.m"; sourceTree = "<group>"; };
+		64B2AA788F57A0EB69F7988E4F4C1C53 /* UIButton+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Helper.swift"; path = "LBTAComponents/Classes/UIButton+Helper.swift"; sourceTree = "<group>"; };
+		6BD6942C981897C82E4B4A49A3ED72DE /* Pods-TwitterApplication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitterApplication-dummy.m"; sourceTree = "<group>"; };
+		70439920B5BCEAB28472CBD7DF4311BB /* libLBTAComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLBTAComponents.a; path = libLBTAComponents.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		743D2C864C6730B9F33C83D580726C71 /* NSMutableAttributedString+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+Helper.swift"; path = "LBTAComponents/Classes/NSMutableAttributedString+Helper.swift"; sourceTree = "<group>"; };
+		7C10CC548CBA4F86BDF073FC4920E9D6 /* DefaultCells.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultCells.swift; path = LBTAComponents/Classes/DefaultCells.swift; sourceTree = "<group>"; };
+		91402652E9B465AD021C253076E4D4FE /* Pods-TwitterApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterApplication.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97623DE19EF62218F9724786D0E17732 /* LBTATextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTATextView.swift; path = LBTAComponents/Classes/LBTATextView.swift; sourceTree = "<group>"; };
+		9AC4F3A451EA596A6D63C34C63AC26AA /* Datasource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Datasource.swift; path = LBTAComponents/Classes/Datasource.swift; sourceTree = "<group>"; };
+		9FEC8593FFF5BE61DB84F142B30A1BE9 /* Pods-TwitterApplication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitterApplication-umbrella.h"; sourceTree = "<group>"; };
+		B6B9A2B30A4EE60B82D1A13A578293EE /* Pods-TwitterApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		BE5893154A0CC6D73D1DD26F99B44F9E /* LBTAComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTAComponents-prefix.pch"; sourceTree = "<group>"; };
+		C1BCCF972A2CA1982970EDB0959EF2AA /* Pods-TwitterApplication-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterApplication-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6C44ECB05BAE92845D547111A125AF3 /* UIColor+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Helper.swift"; path = "LBTAComponents/Classes/UIColor+Helper.swift"; sourceTree = "<group>"; };
+		CE35D18C14C3395C8D3EFA68EF014EFF /* DatasourceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatasourceController.swift; path = LBTAComponents/Classes/DatasourceController.swift; sourceTree = "<group>"; };
+		D0542140B14A83BED16E956609A825AC /* UIImage+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Helper.swift"; path = "LBTAComponents/Classes/UIImage+Helper.swift"; sourceTree = "<group>"; };
+		EC88D241F5BA38189D84A36D2181BCEF /* LBTALabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTALabel.swift; path = LBTAComponents/Classes/LBTALabel.swift; sourceTree = "<group>"; };
+		F1FC801A91D1274D94E46F686B3CB732 /* CachedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedImageView.swift; path = LBTAComponents/Classes/CachedImageView.swift; sourceTree = "<group>"; };
+		F97F719D07D6212DC7F3EC110E6E0BDA /* LBTAComponents.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBTAComponents.xcconfig; sourceTree = "<group>"; };
+		F9D2062B06AE0849ADDE5C0948AD3E75 /* Pods-TwitterApplication-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitterApplication-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD31E9E9278BDCCDDDF6B58D59E33968 /* UIView+Anchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchors.swift"; path = "LBTAComponents/Classes/UIView+Anchors.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0DFA4908F73ED01C938366A08888C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF538F6E59DD72DD32A4A3F07A7CEB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00095AEC041067FC873EA82389BDD621 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03223A2CFCFF51A4A71769C9F79EB724 /* Pods-TwitterApplication */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		03223A2CFCFF51A4A71769C9F79EB724 /* Pods-TwitterApplication */ = {
+			isa = PBXGroup;
+			children = (
+				2D7074816FDB2C9111045792ED98D97B /* Pods-TwitterApplication.modulemap */,
+				F9D2062B06AE0849ADDE5C0948AD3E75 /* Pods-TwitterApplication-acknowledgements.markdown */,
+				C1BCCF972A2CA1982970EDB0959EF2AA /* Pods-TwitterApplication-acknowledgements.plist */,
+				6BD6942C981897C82E4B4A49A3ED72DE /* Pods-TwitterApplication-dummy.m */,
+				9FEC8593FFF5BE61DB84F142B30A1BE9 /* Pods-TwitterApplication-umbrella.h */,
+				B6B9A2B30A4EE60B82D1A13A578293EE /* Pods-TwitterApplication.debug.xcconfig */,
+				91402652E9B465AD021C253076E4D4FE /* Pods-TwitterApplication.release.xcconfig */,
+			);
+			name = "Pods-TwitterApplication";
+			path = "Target Support Files/Pods-TwitterApplication";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57DFF8CAEDEC7670644A76F7A32E5EE6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08C6DF707BDC47CDF77A1394750BF3AE /* LBTAComponents.modulemap */,
+				F97F719D07D6212DC7F3EC110E6E0BDA /* LBTAComponents.xcconfig */,
+				4B54978A4799C8BE49323D725432B088 /* LBTAComponents-dummy.m */,
+				BE5893154A0CC6D73D1DD26F99B44F9E /* LBTAComponents-prefix.pch */,
+				100F984071AA577B7D8B7609FDD15BEC /* LBTAComponents-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LBTAComponents";
+			sourceTree = "<group>";
+		};
+		6E40F94F0E524415017B3070620B39B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70439920B5BCEAB28472CBD7DF4311BB /* libLBTAComponents.a */,
+				33DEC7DC7E604B01D91D02EE0FDF5B4F /* libPods-TwitterApplication.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				D01935095E5CB19F045F7734623791F8 /* Pods */,
+				6E40F94F0E524415017B3070620B39B5 /* Products */,
+				00095AEC041067FC873EA82389BDD621 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9778D0F00554F5DD375A1B9364D90349 /* LBTAComponents */ = {
+			isa = PBXGroup;
+			children = (
+				F1FC801A91D1274D94E46F686B3CB732 /* CachedImageView.swift */,
+				9AC4F3A451EA596A6D63C34C63AC26AA /* Datasource.swift */,
+				3CBD4930DFD89A6F1CA6E8BE53C73C57 /* DatasourceCell.swift */,
+				CE35D18C14C3395C8D3EFA68EF014EFF /* DatasourceController.swift */,
+				7C10CC548CBA4F86BDF073FC4920E9D6 /* DefaultCells.swift */,
+				1F70469FD85FC2097AF9E0F0F07B3CF6 /* DiscardableImageCacheItem.swift */,
+				EC88D241F5BA38189D84A36D2181BCEF /* LBTALabel.swift */,
+				97623DE19EF62218F9724786D0E17732 /* LBTATextView.swift */,
+				743D2C864C6730B9F33C83D580726C71 /* NSMutableAttributedString+Helper.swift */,
+				64B2AA788F57A0EB69F7988E4F4C1C53 /* UIButton+Helper.swift */,
+				C6C44ECB05BAE92845D547111A125AF3 /* UIColor+Helper.swift */,
+				D0542140B14A83BED16E956609A825AC /* UIImage+Helper.swift */,
+				FD31E9E9278BDCCDDDF6B58D59E33968 /* UIView+Anchors.swift */,
+				57DFF8CAEDEC7670644A76F7A32E5EE6 /* Support Files */,
+			);
+			name = LBTAComponents;
+			path = LBTAComponents;
+			sourceTree = "<group>";
+		};
+		D01935095E5CB19F045F7734623791F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9778D0F00554F5DD375A1B9364D90349 /* LBTAComponents */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A98FA23C954610352D79035AAF1294B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F928D63F4A490CB12C83701C598A22E /* Pods-TwitterApplication-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6DDE01868911C0BF0545C3BC3083D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624439D597C65CA7FEE2BA657B1A8089 /* LBTAComponents-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6D740B9F059AF373D79AC28A4AE2E550 /* LBTAComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC837B562BE95B7626823C393D2443E /* Build configuration list for PBXNativeTarget "LBTAComponents" */;
+			buildPhases = (
+				DA6DDE01868911C0BF0545C3BC3083D6 /* Headers */,
+				BFB190572E11913CF65FBEFFC541588B /* Sources */,
+				B0DFA4908F73ED01C938366A08888C28 /* Frameworks */,
+				BF6E363F745D53842C26995941DE2637 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBTAComponents;
+			productName = LBTAComponents;
+			productReference = 70439920B5BCEAB28472CBD7DF4311BB /* libLBTAComponents.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A1889E847424229CF87E7BD54A356A82 /* Pods-TwitterApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFAFB3B84A7A177B6BE530FAA6DF8FB9 /* Build configuration list for PBXNativeTarget "Pods-TwitterApplication" */;
+			buildPhases = (
+				0A98FA23C954610352D79035AAF1294B /* Headers */,
+				6F779936DAADC525921786EC2C3FC07B /* Sources */,
+				DF538F6E59DD72DD32A4A3F07A7CEB3D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E42B1196169695003D60ABC4E05944BB /* PBXTargetDependency */,
+			);
+			name = "Pods-TwitterApplication";
+			productName = "Pods-TwitterApplication";
+			productReference = 33DEC7DC7E604B01D91D02EE0FDF5B4F /* libPods-TwitterApplication.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6E40F94F0E524415017B3070620B39B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D740B9F059AF373D79AC28A4AE2E550 /* LBTAComponents */,
+				A1889E847424229CF87E7BD54A356A82 /* Pods-TwitterApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF6E363F745D53842C26995941DE2637 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/LBTAComponents/LBTAComponents.modulemap",
+				"${PODS_ROOT}/Headers/Public/LBTAComponents/LBTAComponents-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/LBTAComponents/LBTAComponents.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/LBTAComponents/LBTAComponents-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F779936DAADC525921786EC2C3FC07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7408DF2F6A2C73B8BBE34FDF3BE0143 /* Pods-TwitterApplication-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB190572E11913CF65FBEFFC541588B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9EABC2B73B2D67EA53ACDC562B6C22 /* CachedImageView.swift in Sources */,
+				691EA64AA3EABECAD8ECDE3E357B0B64 /* Datasource.swift in Sources */,
+				18106110639C1124B7F5D9ED1518D3E6 /* DatasourceCell.swift in Sources */,
+				B2BBA2A033DBC6E80E1D48EEA62E9456 /* DatasourceController.swift in Sources */,
+				C3A08B53DC18C4659B3B09B3A4E6AEBA /* DefaultCells.swift in Sources */,
+				660388682057382A4BB734B2CA9B2998 /* DiscardableImageCacheItem.swift in Sources */,
+				ADFC73AF8E0299B86208982DACFAEB46 /* LBTAComponents-dummy.m in Sources */,
+				D12788D3CFA18FBF46528B731ED1C670 /* LBTALabel.swift in Sources */,
+				18F6C9580E19E877F7F4B921D4DA13DD /* LBTATextView.swift in Sources */,
+				A92376A86C1166DC9CD4390B556069C2 /* NSMutableAttributedString+Helper.swift in Sources */,
+				AE7BEB1A244E47B1519625CA1A4AE0F4 /* UIButton+Helper.swift in Sources */,
+				8AC66239C8DEBA56906B125DD7701658 /* UIColor+Helper.swift in Sources */,
+				17FFFD666D11C2CF021F898C8C4DC375 /* UIImage+Helper.swift in Sources */,
+				DB170B88E6EAEB6D6D6362C762ECF424 /* UIView+Anchors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E42B1196169695003D60ABC4E05944BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBTAComponents;
+			target = 6D740B9F059AF373D79AC28A4AE2E550 /* LBTAComponents */;
+			targetProxy = A3846DA94BFCB0265BD39F6EE523A504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25011418C0EE17E637871EB698CFD7BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91402652E9B465AD021C253076E4D4FE /* Pods-TwitterApplication.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterApplication/Pods-TwitterApplication.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		325E81A0FF6F53D7130389305BCAE103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		575A554C90F6E103D909283130F7A1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97F719D07D6212DC7F3EC110E6E0BDA /* LBTAComponents.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LBTAComponents/LBTAComponents-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MODULEMAP_FILE = Headers/Public/LBTAComponents/LBTAComponents.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LBTAComponents;
+				PRODUCT_NAME = LBTAComponents;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C31C3E2D9F62F53459E01758EE54116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ADC5D22C6FA322BAB6262CD43F2E67C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B9A2B30A4EE60B82D1A13A578293EE /* Pods-TwitterApplication.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterApplication/Pods-TwitterApplication.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3D50F82A9812097C6B3D23087883FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97F719D07D6212DC7F3EC110E6E0BDA /* LBTAComponents.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LBTAComponents/LBTAComponents-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MODULEMAP_FILE = Headers/Public/LBTAComponents/LBTAComponents.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LBTAComponents;
+				PRODUCT_NAME = LBTAComponents;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C31C3E2D9F62F53459E01758EE54116 /* Debug */,
+				325E81A0FF6F53D7130389305BCAE103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC837B562BE95B7626823C393D2443E /* Build configuration list for PBXNativeTarget "LBTAComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D50F82A9812097C6B3D23087883FFE /* Debug */,
+				575A554C90F6E103D909283130F7A1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFAFB3B84A7A177B6BE530FAA6DF8FB9 /* Build configuration list for PBXNativeTarget "Pods-TwitterApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC5D22C6FA322BAB6262CD43F2E67C4 /* Debug */,
+				25011418C0EE17E637871EB698CFD7BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
